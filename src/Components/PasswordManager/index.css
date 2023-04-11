@@ -1,0 +1,202 @@
+.bg-container {
+  background-color: #9ba9eb;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  height: 150vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  height: 55px;
+  width: 180px;
+}
+.cards {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+}
+.card-1 {
+  background-color: #5763a5;
+  width: 100%;
+  height: 40%;
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  padding-right: 10%;
+  justify-content: space-around;
+}
+.myForm {
+  background-color: #454f84;
+  height: 100%;
+  width: 40%;
+  border: 0px solid;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.img-password-manager {
+  height: 100%;
+  width: 30%;
+}
+.myForm h2 {
+  color: #ffffff;
+}
+.myForm img {
+  height: 70%;
+}
+.input-container input {
+  background-color: transparent;
+  border-left: 1px solid #c3caea;
+  width: 100%;
+  height: 100%;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 3px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  height: 2.2rem;
+  width: 90%;
+  gap: 5px;
+  padding-left: 5px;
+  border: 0px solid transparent;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.input-logo {
+  height: 30px;
+}
+.btn-sub {
+  width: 6rem;
+  height: 2.2rem;
+  margin-top: 5px;
+  align-self: flex-end;
+  margin-right: 10%;
+  background-color: #0b69ff;
+  border: 0px solid;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.card-2 {
+  background-color: #5763a5;
+  width: 100%;
+  height: 100%;
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 7px;
+}
+.card-2 .header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  align-items: center;
+}
+.header-section h2 span {
+  background-color: transparent;
+  border: 1px solid #94a3b8;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.header-section div {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  height: 1.8rem;
+  gap: 5px;
+  padding-left: 5px;
+  border: 0px solid transparent;
+  border-radius: 3px;
+}
+.header-section div input {
+  background-color: transparent;
+  border-left: 1px solid #c3caea;
+  width: 100%;
+  height: 100%;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 3px;
+}
+.header-section div img {
+  height: 80%;
+  width: 10%;
+  background-color: none;
+}
+.separator {
+  border: 1px solid #94a3b8;
+}
+.card-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check-box {
+  display: flex;
+  align-items: center;
+  height: 1.8rem;
+  gap: 3px;
+  align-self: flex-end;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.check-box input {
+  height: 20px;
+}
+.check-box .input:hover {
+  cursor: pointer;
+}
+.container-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.card-3 .container-password img {
+  height: 250px;
+  width: 250px;
+}
+.card-3 .container-password h1 {
+  color: #ffffff;
+}
+.user-list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+/*
+@media screen and (max-width: 768px) {
+  .card-1 {
+    background-color: #5763a5;
+    width: 100%;
+    height: 50%;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+*/

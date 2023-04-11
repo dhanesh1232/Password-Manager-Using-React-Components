@@ -1,0 +1,74 @@
+.list-item {
+  width: 25%;
+  height: 25%;
+  border: 2px solid #94a3b8;
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.list-item .names {
+  width: 50%;
+}
+.list-item .names p {
+  color: #ffffff;
+}
+.color-1 {
+  background-color: #7683cb;
+}
+.color-2 {
+  background-color: #94a3b8;
+}
+.color-3 {
+  background-color: #b6c3ca;
+}
+.color-4 {
+  background-color: #f59e0b;
+}
+.color-5 {
+  background-color: #b91c1c;
+}
+.color-6 {
+  background-color: #14b8a6;
+}
+.color-7 {
+  background-color: #f97316;
+}
+.color-8 {
+  background-color: #10b981;
+}
+.color-9 {
+  background-color: #0ea5e9;
+}
+.color-10 {
+  background-color: #64748b;
+}
+.first-name {
+  border: 0px solid transparent;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 25%;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 22px;
+}
+.img-password {
+  width: 75%;
+  height: 85%;
+}
+.div-delete {
+  width: 20%;
+  height: 30%;
+  margin-left: 20%;
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+.delete-img {
+  background-color: transparent;
+  height: 25%;
+  width: 55%;
+}
